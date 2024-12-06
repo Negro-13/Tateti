@@ -1,0 +1,10 @@
+.tablero {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+}
+.celda {
+  border: 2px solid red; /* Borde de 2px, color rojo y estilo sólido */
+  padding: 20px;
+}
