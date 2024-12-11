@@ -3,8 +3,17 @@
   grid-template-columns: repeat(3, 1fr); 
   grid-template-rows: repeat(3, 1fr);
   gap: 10px;
+  margin-left: 80vh;
 }
 .celda {
-  border: 2px solid black; /* Borde de 2px, color rojo y estilo sólido */
+  border: 2px solid black;
   padding: 20px;
+  width: 40px; /* Ancho fijo */
+  height: 80px;
+}
+.title {
+  margin-left: 75vh;
+}
+.boton {
+  margin-left: 100vh;
 }
