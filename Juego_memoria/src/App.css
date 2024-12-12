@@ -1,0 +1,16 @@
+.tablero {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  margin-left: 80vh;
+}
+.img {
+  width: 90px;
+  height: 120px;
+}
+.card {
+  border: 2px solid black;
+  width: 90px; /* Ancho fijo */
+  height: 120px;
+}
